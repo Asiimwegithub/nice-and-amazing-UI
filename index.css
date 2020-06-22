@@ -1,0 +1,485 @@
+body{
+	background: #F5F5F5;
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+}
+.child-header{
+	background: #FFFFFF;
+	padding: 10px;
+	display: block;
+	
+	margin-bottom: 10px;
+
+
+
+
+}
+.child-header form{
+	text-align: center;
+	background: #FFFFFF;
+	padding: 20px;
+	border-radius: 6px;
+	
+
+}
+.child-header form input[type=text]{
+	width: 40%;
+	padding: 8px;
+	background: #fff;
+	border-radius: 6px;
+	margin-left: 50px;
+	border: 1px solid orange;
+}
+.child-header span{
+	color: orange;
+	text-align: left;
+	font-size: 2.5vw;
+	font-weight: bolder;
+	text-decoration: underline;
+
+}
+.child-header form a{
+	text-decoration: none;
+	margin-left: 30px;
+	font-size: 1.5vw;
+}
+.child-header input[type=submit]{
+	width: 80px;
+	background: orange;
+	padding: 8px;
+	color: #FFFFFF; 
+	border: 1px solid orange;
+}
+
+.blog{
+background-image: url(image2.png);
+background-size: cover;
+height: 200px;
+text-align: center;
+
+}
+
+.blog p a{
+	text-decoration: none;
+	background: #FFFFFF;
+	padding: 2%;
+	align-items: center;
+	margin: 20%;
+	border: 1px solid orange;
+
+
+}
+.blog p a:hover{
+	color: #FFFFFF;
+	background: orange;
+	cursor: pointer;
+}
+
+
+.content{
+	display: flex;
+	flex-direction: row;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-top: 1px solid #FFFFFF;
+	
+
+	
+}
+/*.content img{
+	width: 100%;
+	margin:
+
+
+}*/
+
+.content .content1 ul li{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+
+}
+ .content1{
+	
+	width: 400px;
+	padding: 10px;
+	border-radius: 6px;
+	background: #FFFFFF;
+	height: 450px;
+}
+
+
+
+.content1:hover{
+background: orange;
+cursor: pointer;
+
+
+}
+.content ul li{
+	width: 300px;
+	list-style: none;
+}
+
+
+
+
+
+.content2{
+	
+	padding: 10px;
+	/*border-left: 5px solid #dddd;*/
+	border-radius: 6px;
+	background: #FFFFFF;
+	text-align: center;
+}
+
+.content2:hover{
+background: orange;
+cursor: pointer;
+
+}
+.contents{
+	background: #FFFFFF;
+	padding: 10px;
+	margin-left: 2px;
+	/*border-left: 5px solid #dddd;*/
+	border-radius: 6px;
+	height: 450px;
+	width: 400px;
+}
+
+.contents:hover{
+	background: orange;
+	cursor: pointer;
+}
+
+.ads{
+	display: flex;
+	flex-direction: row;
+	margin-right: 5%;
+	margin-left: 5%;
+
+
+}
+
+.ads .advert{
+	background: #FFFFFF;
+	padding: 0.5%;
+	width: 350px;
+	margin-top: 3%;
+	text-align: center;
+	border-radius: 6px;
+	color: orange;
+
+
+}
+
+
+.children{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin-top: 5px;
+	color: orange;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.children .div1{
+	background: #FFFFFF;
+	padding: 2%;
+	margin-right: 3%;
+	height: 200px;
+	border-radius: 6px;
+}
+.div1:hover{
+	background: orange;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+
+.children .div2{
+	background: #FFFFFF;
+	padding: 2%;
+	margin-right: 3%;
+	height: 200px;
+	border-radius: 6px;
+}
+
+.div2:hover{
+	background: orange;
+	cursor: pointer;
+	color: #FFFFFF;
+
+}
+
+
+.children .div3{
+	background: #FFFFFF;
+	padding: 2%;
+	margin-right: 3%
+	height: 200px;
+	border-radius: 6px;
+}
+
+.div3:hover{
+	background: orange;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+.children .div4{
+	background: #FFFFFF;
+	padding: 2%;
+	margin-left: 3%;
+	height: 200px;
+	border-radius: 6px;
+	
+}
+
+.div4:hover{
+	background: orange;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+
+.children .div5{
+	background: #FFFFFF;
+	padding: 2%;
+	margin-right: 3%;
+	margin-top: 3%;
+	height: 200px;
+	border-radius: 6px;
+}
+
+.children .div6{
+	background: #FFFFFF;
+	padding: 2%;
+	margin-right: 3%;
+	margin-top: 3%;
+	height: 200px;
+	border-radius: 6px;
+}
+.children .div7{
+	background: #FFFFFF;
+	padding: 2%;
+	margin-right: ;
+	margin-top: 3%;
+	height: 200px;
+	border-radius: 6px;
+}
+.children .div8{
+	background: #FFFFFF;
+	padding: 2%;
+	margin-top: 3%;
+	margin-left: 3%;
+	height: 200px;
+	
+	border-radius: 6px;
+}
+
+.partners{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.partners .partner1{
+	background: #FFFFFF;
+	padding: 2%;
+	margin-top: 1%;
+	height: 200px;
+
+	border-radius: ;
+	margin-right: 3%;
+}
+h2{
+	background: #000;
+	padding: 1%;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+
+
+/** {box-sizing:border-box}
+
+ Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background: #FFFFFF;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+ /* display: inline-block;*/
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.quick{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	margin-right: 5%;
+	margin-left: 5%;
+
+
+
+}
+.quick .quick-nav{
+	background: #FFFFFF;
+	padding: 2%;
+	/*margin-right: 5px;*/
+	margin-top: 1%;
+	height: 150px;
+
+	/*border-radius: 6px;*/
+}
+
+
+
+
+.blog2{
+	background: #FFFFFF;
+	padding: 2%;
+	border-radius: 1%;
+	margin-top: 5%;
+	box-shadow: 0px 0px 1px 0px;
+	
+	height: 50vh;
+	
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+
+
+
+footer{
+background: #000;
+padding: 30px;
+color: #FFFFFF;
+display: grid;
+grid-template-columns: auto auto auto;
+margin-top: 100px;
+
+}
+
+footer .footer1 span{
+	color: Orange;
+	font-size: 2.5vw;
+	text-decoration: underline;
+
+}
+
+footer .footer1 form input[type=email]{
+	border-radius: 5px;
+	border: 1px solid orange;
+	width: 50%;
+	font-size: 100%;
+
+	
+
+}
+
+footer .footer1 form input[type=submit]{
+	background: orange;
+	border: 1px solid orange;
+	border-radius: 2px;
+	font-size: 100%;
+	margin-right: 10%;
+}
+
+footer .footer1 a{
+	background: orange;
+	padding: 2%;
+	text-align: center;
+	margin: 2%;
+	text-decoration: none;
+	font-size: 100%;
+	border-radius: 5px;
+}
+.footer2{
+background: #000;
+padding: 5%;
+color: #FFFFFF;
+display: grid;
+grid-template-columns: auto auto auto auto;
+
+text-align: ;
+
+
+}
+
+.footer2 .footer1{
+	list-style: none;
+	justify-content: flex-start;
+
+}
